@@ -2,6 +2,9 @@ package com.atguigu.juc.lockaangsyn;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * LSH到此一游
+ */
 public class sisuo {
 
     public static void main(String[] args) {
