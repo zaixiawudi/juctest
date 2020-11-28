@@ -59,14 +59,11 @@ public class LockTest {
             Ticket ticket = new Ticket();
             for (int i = 0; i < 3; i++) {
                 executorService.execute(() -> {
-
                     for (int i1 = 0; i1 < 10; i1++) {
                         ticket.sale();
                     }
                 });
             }
-
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
